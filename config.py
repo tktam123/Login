@@ -5,4 +5,4 @@ SECURITY_KEY = "ioweurlaksjdfoiquwerlkasjdf"   # move to env var in production
 ALGORITHM    = "HS256"
 TOKEN_TTL    = 30  # minutes
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/login")
